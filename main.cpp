@@ -350,7 +350,7 @@ void attack(int player[10][10])
             }
 
             //cap jos
-            if (player[c1][c2]==10)
+            if (player[c1][c2]== 10)
             {
                 player[c1+1][c2]=3;
                 player[c1+1][c2-1]=3;
